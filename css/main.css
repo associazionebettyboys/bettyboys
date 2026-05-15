@@ -803,6 +803,102 @@ button:focus {
   }
 }
 
+/* Stili per Donations - Uguali a Features */
+#donations {
+  background: url(../img/bg1.jpg) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+#donations .section-title {
+  color: #fff;
+}
+
+#donations .section-subtitle {
+  color: #fff;
+}
+
+#donations .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#donations .box-item {
+  padding: 15px 0;
+}
+
+#donations .box-item .icon {
+  border: 1px solid #ebba3f;
+  text-align: center;
+  float: left;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#donations .box-item .icon i {
+  color: #ebba3f;
+  font-size: 24px;
+  line-height: 60px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#donations .box-item .text {
+  padding-left: 80px;
+}
+
+#donations .box-item .text h4 {
+  color: #ebba3f;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+
+#donations .box-item .text p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#donations .box-item:hover .icon {
+  background: #ebba3f;
+}
+
+#donations .box-item:hover .icon i {
+  color: #ffffff;
+}
+
+#donations .show-box img {
+  position: absolute;
+  bottom: -108px;
+  z-index: 10;
+}
+
+#donations .box-item.second-quarter{
+  position: relative;
+  z-index: 11;
+}
+
+#donations .box-item-link {
+  text-decoration: none;
+  display: inline-block;
+  &:hover .box-item {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
 /* ==========================================================================
   8. albumFOTO Section
    ========================================================================== */
